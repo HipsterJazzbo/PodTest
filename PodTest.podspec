@@ -9,22 +9,19 @@
 
 Pod::Spec.new do |s|
   s.name             = "PodTest"
-  s.version          = "0.1.0"
-  s.summary          = "A short description of PodTest."
+  s.version          = "0.0.1"
+  s.summary          = "This is a test"
   s.description      = <<-DESC
-                       An optional longer description of PodTest
-
-                       * Markdown format.
-                       * Don't worry about the indent, we strip it!
+                       This is a test thing
                        DESC
-  s.homepage         = "https://github.com/<GITHUB_USERNAME>/PodTest"
+  s.homepage         = "https://github.com/hipsterjazzbo/PodTest"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
   s.author           = { "Caleb Fidecaro" => "calebfidecaro@gmail.com" }
-  s.source           = { :git => "https://github.com/<GITHUB_USERNAME>/PodTest.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/hipsterjazzbo/PodTest.git", :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.platform     = :ios, '7.0'
+  s.platform     = :ios, '8.0'
   s.requires_arc = true
 
   s.source_files = 'Pod/Classes/**/*'
@@ -34,5 +31,5 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+  s.dependency 'XCGLogger', '~> 2.0'
 end
