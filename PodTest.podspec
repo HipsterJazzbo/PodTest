@@ -31,5 +31,6 @@ Pod::Spec.new do |s|
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'XCGLogger', '~> 2.0', 'libPusher', '~> 1.6'
+  s.dependency 'XCGLogger', '~> 2.0'
+  s.dependency 'libPusher', '~> 1.6'
 end
